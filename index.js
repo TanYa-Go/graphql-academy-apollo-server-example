@@ -95,5 +95,5 @@ const server = new ApolloServer({
   formatError,
 });
 
-server.listen(4001)
+server.listen(8003)
   .then(({ url }) => console.log(`Server started at ${url}`));
